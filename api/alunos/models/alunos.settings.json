@@ -1,0 +1,102 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alunos",
+  "info": {
+    "name": "alunos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nome": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "Nacionalidade": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "Naturalidade": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "Sexo": {
+      "type": "string",
+      "maxLength": 50,
+      "required": true
+    },
+    "Nome_mae": {
+      "type": "string",
+      "required": true,
+      "maxLength": 200
+    },
+    "RG": {
+      "type": "string",
+      "required": true,
+      "maxLength": 15
+    },
+    "RG_org_exp": {
+      "type": "string",
+      "required": true,
+      "maxLength": 10
+    },
+    "RG_uf": {
+      "type": "string",
+      "required": true,
+      "maxLength": 2
+    },
+    "CPF": {
+      "type": "string",
+      "required": true,
+      "maxLength": 15
+    },
+    "Endereco": {
+      "type": "string",
+      "required": true,
+      "maxLength": 200
+    },
+    "Telefone": {
+      "type": "integer",
+      "required": true
+    },
+    "Banco_cod": {
+      "type": "integer",
+      "required": true
+    },
+    "Banco_n_agen": {
+      "type": "integer",
+      "required": true
+    },
+    "Banco_tipo_con": {
+      "type": "integer",
+      "required": true
+    },
+    "Banco_num_con": {
+      "type": "integer",
+      "required": true
+    },
+    "Nascimento": {
+      "type": "date"
+    },
+    "Conclusao_em": {
+      "type": "date",
+      "required": true
+    },
+    "RG_data_exp": {
+      "type": "date",
+      "required": true
+    },
+    "Email": {
+      "type": "string",
+      "maxLength": 200,
+      "required": true
+    }
+  }
+}
